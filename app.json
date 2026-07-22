@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "ReeferSense",
+    "slug": "reefer-sense",
+    "scheme": "reefersense",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#0B1220",
+    "splash": {
+      "backgroundColor": "#0B1220"
+    },
+    "plugins": ["expo-router"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.faiyaz.reefersense"
+    },
+    "android": {
+      "package": "com.faiyaz.reefersense"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
